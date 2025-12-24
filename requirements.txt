@@ -1,0 +1,17 @@
+# Core dependencies
+python-dotenv>=0.21.0
+openai>=1.0.0
+
+# Audio and signal processing (used by audio_input.py)
+numpy>=1.23.0
+scipy>=1.9.0
+sounddevice>=0.4.6
+
+# Optional / development
+google-cloud-speech>=2.18.0
+google-genai>=0.4.0
+
+# Notes:
+# - On Windows, `sounddevice` requires the PortAudio library. Use the appropriate binary wheels or
+#   install PortAudio via your package manager. If installation fails, consider using `pipwin`:
+#     pip install pipwin; pipwin install sounddevice
