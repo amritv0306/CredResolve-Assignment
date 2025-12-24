@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Old Age Pension Scheme",
+    "min_age": 49,
+    "max_income": 199999,
+    "states": ["telangana", "andhra pradesh"]
+  },
+  {
+    "name": "Student Scholarship Scheme",
+    "min_age": 18,
+    "max_age": 25,
+    "max_income": 300000,
+    "states": ["telangana", "andhra pradesh", "karnataka"]
+  },
+  {
+    "name": "Farmer Support Scheme",
+    "min_age": 21,
+    "max_income": 250000,
+    "states": ["telangana", "andhra pradesh"]
+  }
+]
